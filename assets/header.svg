@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240" role="img" aria-labelledby="title desc">
+  <title id="title">extreme</title>
+  <desc id="desc">Open source, one contribution at a time. Blue and violet on a dark background.</desc>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7aa2f7"/>
+      <stop offset="1" stop-color="#bb9af7"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#7aa2f7" stop-opacity=".17"/>
+      <stop offset="1" stop-color="#7aa2f7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1000" height="240" rx="20" fill="#1a1b26"/>
+  <ellipse cx="810" cy="70" rx="300" ry="220" fill="url(#glow)"/>
+  <g fill="none" stroke="url(#accent)" opacity=".18">
+    <path d="M710 0 570 240M830 0 690 240M950 0 810 240M1000 120H550M1000 180H510"/>
+    <circle cx="810" cy="120" r="76"/>
+    <circle cx="810" cy="120" r="100"/>
+  </g>
+  <rect x="48" y="48" width="4" height="136" rx="2" fill="url(#accent)"/>
+  <text x="78" y="77" fill="#9aa5ce" font-family="ui-monospace,Consolas,monospace" font-size="13" letter-spacing="3">EXTREME-MECHAGRAM / GITHUB</text>
+  <text x="74" y="142" fill="#c0caf5" font-family="Segoe UI,Arial,sans-serif" font-size="62" font-weight="700">extreme<tspan fill="#7aa2f7">.</tspan></text>
+  <text x="78" y="179" fill="#a9b1d6" font-family="Segoe UI,Arial,sans-serif" font-size="18">Open source, one contribution at a time.</text>
+  <text x="740" y="143" fill="url(#accent)" font-family="ui-monospace,Consolas,monospace" font-size="66" font-weight="700">&lt;/&gt;</text>
+  <path d="M20 238H980" stroke="url(#accent)" stroke-width="3" opacity=".8"/>
+</svg>
