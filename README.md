@@ -26,12 +26,13 @@
 
 ## 🚀 Open-source contributions
 
-My first two contributions to **gramsrv** have been merged:
+My first **3 pull requests** to **gramsrv** have been merged:
 
 | Pull request | What it fixes | Status |
 | --- | --- | --- |
 | [#168 — Preserve escaped URL prefixes](https://github.com/iamxvbaba/gramsrv/pull/168) | Keeps encoded slashes intact when building public links. | ✅ Merged |
 | [#169 — Isolate concurrent cache results](https://github.com/iamxvbaba/gramsrv/pull/169) | Gives concurrent callers independent copies of mutable cache results. | ✅ Merged |
+| [#170 — Validate reused update packages](https://github.com/iamxvbaba/gramsrv/pull/170) | Checks the declared file size for every release sharing an update package. | ✅ Merged |
 
 <p align="center">
   <a href="https://github.com/iamxvbaba/gramsrv/graphs/contributors">gramsrv contributors</a> ·
